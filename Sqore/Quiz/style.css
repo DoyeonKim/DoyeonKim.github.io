@@ -49,6 +49,11 @@ button {
 
 }
 
+button a {
+	text-decoration: none;
+	color: white;
+}
+
 p {
 	display: flex;
 	margin: 48px;
