@@ -13,17 +13,22 @@ body {
 
 }
 
-ul{
+.pagination {
+	color: #16AB91;
+	margin: 0;
+	padding: 0;
 	
-	display: flex;
+	display: block;
 	list-style-type: none;
-	margin-right: 20px;
+	margin: auto;
 
 }
 
-li {
-	margin-right: 20px;
+.pagination li {
 	border: green;
+	display: inline;
+	padding: 1ex 1em;
+	margin-left: 10PX;
 }
 
 h1 {
@@ -58,7 +63,3 @@ input {
   font-size: 60px;
 }
 
-.pagination {
-	color: #16AB91;
-	  margin-left: 52px;
-}
