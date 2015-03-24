@@ -1,0 +1,64 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600);
+
+body {
+
+	width: 326px;
+	margin: 38px;
+	font-family: ‘Metrophobic’, Arial, serif; font-weight: 300;
+
+}
+
+.circle {
+	padding-right: 20px;
+
+}
+
+ul{
+	
+	display: flex;
+	list-style-type: none;
+	margin-right: 20px;
+
+}
+
+li {
+	margin-right: 20px;
+	border: green;
+}
+
+h1 {
+	color: #16AB91;
+	padding-top: 13px;
+	font-size: 30px;
+}
+
+button {
+	background-color: #16AB91;
+	color: white;
+	border-radius: 5px;
+	width: 100px;
+	height: 50px;
+	margin-right: 10px;
+
+
+
+}
+
+p {
+	display: flex;
+	margin: 48px;
+}
+
+ol li {
+	padding-top: 20px;
+}
+
+input {
+  margin-top: 43px;
+  font-size: 60px;
+}
+
+.pagination {
+	color: #16AB91;
+	  margin-left: 52px;
+}

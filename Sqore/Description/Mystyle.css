@@ -1,0 +1,57 @@
+*{
+	background-color: #FFFFFF ; 
+	font-family: Arial ; 
+	
+}
+
+.box  {
+	border: 2px solid;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px #888888;
+    padding: 50px;
+    width: relative
+    
+}
+
+.cross { position: right;
+
+}
+.a {
+	text-align: center;
+	color: #000000;
+
+}
+
+
+img { display: inline;
+}
+
+.h3 { font-style: #FFFFFF;
+
+}
+
+.myButton {
+    background-color:white;
+    -moz-border-radius:31px;
+    -webkit-border-radius:31px;
+    border-radius:18px;
+    border:2px solid #16AB91;
+    display:inline-block;
+    cursor:pointer;
+    color:#16AB91;
+    font-family: ‘Metrophobic’, Arial, serif; font-weight: 300;
+    font-size:50px;
+    padding:12px 78px;
+    text-decoration:none;
+    position: center;
+    top:-60px;
+    left:100px;
+
+}
+.myButton:hover {
+    background-color:white;
+}
+.myButton:active {
+    position: relative;
+    top:-10px;
+}
