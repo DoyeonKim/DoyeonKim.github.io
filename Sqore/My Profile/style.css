@@ -7,7 +7,10 @@
 
 * { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif }
 
-body { font-size: 14px }
+body { 
+
+  font-size: 14px;
+  padding-bottom: 47px; }
 
 #scope-bar {
   display: table;
@@ -160,6 +163,8 @@ span {
 .nav_bar > a {
   display: flex;
   padding-left: 40px;
+
 }
+
 
 
