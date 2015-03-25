@@ -62,12 +62,9 @@ body {
 }
 
 
-img {
-	width: 250px;
-}
-
 .pics {
 	margin-left: 60px;
+  width: 250px;
 
 }
 
@@ -98,6 +95,7 @@ span {
 	margin-left: 302px;
   	margin-top: 10px;
 	width: 40px;
+
 }
 
 .description {
@@ -120,10 +118,12 @@ span {
 .slide2 {
 	margin-left: 302px;
 	width: 40px;
+
 }
 
 .graph {
 	margin-left: 60px;
+  width: 250px;
 }
 
 .badges {
@@ -138,33 +138,16 @@ span {
   font-size: 22px;
   margin-top: 42px;
   margin-left: 132px;
+  width: 40px;
+ 
 }
 
 .certi {
 	margin-left: 65px;
 	margin-top: 20px;
+  width: 250px;
 }
 
-.nav_bar {
-    position: fixed;
-    bottom: 0px;
-
-    width: 100%;
-    background-color: #16AB91;
-    opacity: 0.8;
-    filter: alpha(opacity=80); /* For IE8 and earlier */
-
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.nav_bar > a {
-  display: flex;
-  padding-left: 40px;
-
-}
 
 
 

@@ -58,39 +58,8 @@ border-radius: 5px;
 
 }
 
-.nav_bar {
-    position: fixed;
-    bottom: 0px;
-
-    width: 100%;
-    background-color: #16AB91;
-    opacity: 0.8;
-    filter: alpha(opacity=80); /* For IE8 and earlier */
-
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.nav_bar > a {
-  display: flex;
-  padding-left: 40px;
-}
 
 
-
-footer {
-
-margin: 1em;
-width: 100%;
-height: 200px;
-text-align: center;
-font-family: ¡Metrophobic¢, Arial, serif; font-weight: 300;
-color: gray;
-font-size: 0.5em;
-
-}
 
 
 
