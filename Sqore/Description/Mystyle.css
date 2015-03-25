@@ -1,32 +1,153 @@
-*{
-	background-color: #FFFFFF ; 
-	font-family: Arial ; 
-	
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600);
+
+
+* {
+
+    font-family: Metrophobic, Arial, serif; font-weight: 300;
 }
 
-.box  {
-	border: 2px solid;
-    border-radius: 25px;
-    box-shadow: 10px 10px 5px #888888;
-    padding: 50px;
-    width: relative
+#exit { 
+
+    margin-left: 90%;
+    margin-top: 0px;
+
+}
+.logo {
+
+    margin-top: 5%;
+    margin-right: 5%;
+    height: 20px;
+ 
+}
+
+.logo >h1 {
+
+   margin-top: -50;
+  text-align: center;
+  margin-left: 50;
+}
+
+.challenge_about{
+
+    width: 100%;
+    padding-top: 80px;
+}
+
+.challenge_about >h2 {
+
+    font-size: 20px;
+    color: black;
+    text-align: center;
+
     
 }
 
-.cross { position: right;
+.challenge_about > p {
+
+    font-size: 15px;
+    text-align: justify;
+    color: gray;
+    padding: 10px;
+    
+}
+
+.icons > ul {
+
+    color: transparent;
+    line-height: 200%;
+}
+
+.icons img {
+    width: 30px;
+    margin-left: 10px;
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
 
 }
-.a {
-	text-align: center;
-	color: #000000;
+
+.icons a {
+
+    color: gray;
+}
+
+
+
+.challenge_details > img {
+    float: left;
+    width: 60px;
+    padding-right: 20px;
+    margin-top: 10px;
+} 
+
+.challenge_details {
+    margin: 5px;
+    margin-top: 30px;
+    padding: 20px;
+    width: 85%;
+    height: 130px;
+    background-color: white;
+    font-family: Metrophobic, Arial, serif; font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px #989898;
+
+} 
+
+.challenge_details > h2 {
+ 
+    background-color: transparent;
+    color: #696969;
+    font-size: 1.5em;
+    position: relative;
+    top: -20px;
+    padding-left: 100px;
+   
+    
+}
+
+.challenge_details > p {
+  
+   
+    background-color: transparent;
+    color: gray;
+    font-size: 1em;
+    position: relative;
+    top: -30px;  
+    padding-left: 100px; 
 
 }
+
+.challenge_details > h3 {
+
+    color: orange;
+    position: relative;
+    top: -10px;
+    font-size: 1em;
+    
+
+}
+
 
 
 img { display: inline;
 }
 
-.h3 { font-style: #FFFFFF;
+
+.favorites {
+     background-color:#16AB91;
+    -moz-border-radius:31px;
+    -webkit-border-radius:31px;
+    border-radius:18px;
+    border:2px solid #16AB91;
+    cursor:pointer;
+    color:white;
+    font-family: ‘Metrophobic’, Arial, serif; font-weight: 200;
+    font-size:25px;
+    padding:12px 78px;
+    text-decoration:none;
+    position: inherit;
+    top: -100px;
+
 
 }
 
@@ -40,18 +161,18 @@ img { display: inline;
     cursor:pointer;
     color:#16AB91;
     font-family: ‘Metrophobic’, Arial, serif; font-weight: 300;
-    font-size:50px;
+    font-size:25px;
     padding:12px 78px;
     text-decoration:none;
     position: center;
-    top:-60px;
-    left:100px;
+    margin-left: 90px;
+    margin-top: -59px;
 
 }
-.myButton:hover {
-    background-color:white;
+
+#second {
+  margin-top: 31px;
+  margin-left: -18px;
+  width: 305px;
 }
-.myButton:active {
-    position: relative;
-    top:-10px;
-}
+
