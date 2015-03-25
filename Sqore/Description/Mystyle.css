@@ -91,6 +91,7 @@
     border-radius: 5px;
     box-shadow: 0px 2px 2px #989898;
 
+
 } 
 
 .challenge_details > h2 {
@@ -125,6 +126,11 @@
     font-size: 1em;
     
 
+}
+
+.myButton > a {
+    text-decoration: none;
+    color:#16AB91;
 }
 
 
